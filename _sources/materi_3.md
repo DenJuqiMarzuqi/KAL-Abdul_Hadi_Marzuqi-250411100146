@@ -1,4 +1,4 @@
-#4. Determinan Dan Invers
+# Determinan Dan Invers
 
 SOAL.
 
