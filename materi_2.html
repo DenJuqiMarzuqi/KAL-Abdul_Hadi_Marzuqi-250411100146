@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Materi Pertemuan 1 &#8212; My sample book</title>
+    <title>Tugas ELiminasi Gaussan &#8212; My sample book</title>
   
   
   
@@ -60,11 +60,12 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'materi_1';</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'materi_2';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Tugas ELiminasi Gaussan" href="materi_2.html" />
-    <link rel="prev" title="Welcome to your Jupyter Book" href="intro.html" />
+    <link rel="prev" title="Materi Pertemuan 1" href="materi_1.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -169,8 +170,8 @@
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Materi Pertemuan 1</a></li>
-<li class="toctree-l1"><a class="reference internal" href="materi_2.html">Tugas ELiminasi Gaussan</a></li>
+<li class="toctree-l1"><a class="reference internal" href="materi_1.html">Materi Pertemuan 1</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Tugas ELiminasi Gaussan</a></li>
 </ul>
 
     </div>
@@ -247,7 +248,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fmateri_1.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fmateri_2.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -277,7 +278,7 @@
       
       
       
-      <li><a href="_sources/materi_1.md" target="_blank"
+      <li><a href="_sources/materi_2.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -353,7 +354,7 @@
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Materi Pertemuan 1</h1>
+    <h1>Tugas ELiminasi Gaussan</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -363,21 +364,17 @@
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pengertian-persamaan-linear">1.Pengertian Persamaan Linear</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ciri-ciri-persamaan-linear">2.Ciri-Ciri Persamaan Linear</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#unsur-dalam-persamaan-linear">3.Unsur Dalam Persamaan Linear</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#variable">3.1.Variable</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#koefisien">3.2.Koefisien</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#konstanta">3.3.Konstanta</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#suku">3.4.Suku</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#persamaan-linear-satu-variabel">4.1.Persamaan Linear Satu Variabel</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#persamaan-linear-dua-variabel">4.2.Persamaan Linear Dua Variabel</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#persamaan-linear-tiga-variabel">4.3.Persamaan Linear Tiga Variabel</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#spl-sistem-persamaan-linear">1. SPL (Sistem Persamaan Linear)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#matriks-augmented">2. Matriks Augmented</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eliminasi-gauss-obe">3. Eliminasi Gauss (OBE)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#langkah-1-nolkan-elemen-di-bawah-pivot-kolom-1">Langkah 1: nolkan elemen di bawah pivot kolom 1</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#langkah-2-nolkan-elemen-di-bawah-pivot-kolom-2">Langkah 2: nolkan elemen di bawah pivot kolom 2</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#langkah-3-nolkan-elemen-di-bawah-pivot-kolom-3">Langkah 3: nolkan elemen di bawah pivot kolom 3</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#langkah-4-nolkan-elemen-di-bawah-pivot-kolom-4">Langkah 4: nolkan elemen di bawah pivot kolom 4</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#metode-penyelesaian-persamaan-linear">5.Metode Penyelesaian Persamaan Linear</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#metode-substitusi">6.Metode Substitusi</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#metode-eliminasi">7.Metode Eliminasi</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hasil-akhir">Hasil Akhir</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sage-cell">SAGE CELL</a></li>
 </ul>
             </nav>
         </div>
@@ -389,75 +386,126 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="materi-pertemuan-1">
-<h1>Materi Pertemuan 1<a class="headerlink" href="#materi-pertemuan-1" title="Link to this heading">#</a></h1>
-<section id="pengertian-persamaan-linear">
-<h2>1.Pengertian Persamaan Linear<a class="headerlink" href="#pengertian-persamaan-linear" title="Link to this heading">#</a></h2>
-<p>Sistem persamaan linear bisa diartikan sebagai suatu persamaan aljabar. Dimana persamaan linear sendiri memiliki karakteristik pada setiap sukunya mengandung konstanta atau perkalian konstanta dengan variabel tunggal.
-Persamaan tersebut disebut linear karena ada hubungan matematis yang digambarkan sebagai garis lurus dalam sistem koordinat Kartesius. Sistem koordinat tersebut akan menetapkan setiap titik secara unik dalam bidang dengan serangkaian koordinat numerik.</p>
-<p>Sistem persamaan linear bisa diartikan sebagai suatu persamaan aljabar. Dimana persamaan linear sendiri memiliki karakteristik pada setiap sukunya mengandung konstanta atau perkalian konstanta dengan variabel tunggal.</p>
-<p>Persamaan tersebut disebut linear karena ada hubungan matematis yang digambarkan sebagai garis lurus dalam sistem koordinat Kartesius. Sistem koordinat tersebut akan menetapkan setiap titik secara unik dalam bidang dengan serangkaian koordinat numerik.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="tugas-eliminasi-gaussan">
+<h1>Tugas ELiminasi Gaussan<a class="headerlink" href="#tugas-eliminasi-gaussan" title="Link to this heading">#</a></h1>
+<section id="spl-sistem-persamaan-linear">
+<h2>1. SPL (Sistem Persamaan Linear)<a class="headerlink" href="#spl-sistem-persamaan-linear" title="Link to this heading">#</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{cases}
+1x_1 + 0x_2 + 0x_3 + 0x_4 + 0x_5 = 1 \\
+2x_1 + 1x_2 + 0x_3 + 0x_4 + 0x_5 = 4 \\
+0x_1 + 3x_2 + 1x_3 + 0x_4 + 0x_5 = 9 \\
+0x_1 + 0x_2 + 4x_3 + 1x_4 + 0x_5 = 16 \\
+0x_1 + 0x_2 + 0x_3 + 5x_4 + 1x_5 = 25
+\end{cases}\end{split}\]</div>
 </section>
-<section id="ciri-ciri-persamaan-linear">
-<h2>2.Ciri-Ciri Persamaan Linear<a class="headerlink" href="#ciri-ciri-persamaan-linear" title="Link to this heading">#</a></h2>
-<p>Dalam persamaan linear memiliki ciri-ciri tertentu. Akan lebih mudah mengetahui ciri tersebut jika melihat langsung dari soal persamaan linear. Namun beberapa ciri yang ada di bawah ini juga akan memantu kalian lebih memahami persamaan linear.</p>
+<section id="matriks-augmented">
+<h2>2. Matriks Augmented<a class="headerlink" href="#matriks-augmented" title="Link to this heading">#</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split}\left[
+\begin{array}{ccccc|c}
+1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 1 \\
+2 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 4 \\
+1 &amp; 3 &amp; 1 &amp; 0 &amp; 0 &amp; 9 \\
+1 &amp; 0 &amp; 4 &amp; 1 &amp; 0 &amp; 16 \\
+1 &amp; 0 &amp; 0 &amp; 5 &amp; 1 &amp; 25
+\end{array}
+\right]\end{split}\]</div>
+</section>
+<section id="eliminasi-gauss-obe">
+<h2>3. Eliminasi Gauss (OBE)<a class="headerlink" href="#eliminasi-gauss-obe" title="Link to this heading">#</a></h2>
+<section id="langkah-1-nolkan-elemen-di-bawah-pivot-kolom-1">
+<h3>Langkah 1: nolkan elemen di bawah pivot kolom 1<a class="headerlink" href="#langkah-1-nolkan-elemen-di-bawah-pivot-kolom-1" title="Link to this heading">#</a></h3>
+<p>Operasi baris: $<span class="math notranslate nohighlight">\(R_2 \leftarrow R_2 - 2R_1\)</span>$</p>
+<p>Penjelasan:</p>
 <ol class="arabic simple">
-<li><p>Persamaan linear akan memiliki pangkat satu.</p></li>
-<li><p>Persamaan linear tidak memiliki perkalian variabel.</p></li>
-<li><p>Persamaan linear biasanya akan terdiri dari dua ruas yang akan dihubungkan dengan tanda sama dengan (=).</p></li>
-<li><p>Penjumlahan, pengurangan, perkalian dan pembagian pada kedua ruas persamaan linear tidak akan mengubah bentuk nilai persamaan.</p></li>
+<li><p>Pivot pertama ada di kolom 1 baris 1 (angka 1).</p></li>
+<li><p>Di bawahnya (baris 2 kolom 1) ada angka 2.</p></li>
+<li><p>Kita ingin membuat elemen tersebut menjadi 0.</p></li>
+<li><p>Caranya dengan mengurangkan 2 kali baris 1 dari baris 2.</p></li>
 </ol>
+<div class="math notranslate nohighlight">
+\[\begin{split}\left[
+\begin{array}{ccccc|c}
+1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 1 \\
+0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 2 \\
+1 &amp; 3 &amp; 1 &amp; 0 &amp; 0 &amp; 9 \\
+1 &amp; 0 &amp; 4 &amp; 1 &amp; 0 &amp; 16 \\
+1 &amp; 0 &amp; 0 &amp; 5 &amp; 1 &amp; 25
+\end{array}
+\right]\end{split}\]</div>
 </section>
-<section id="unsur-dalam-persamaan-linear">
-<h2>3.Unsur Dalam Persamaan Linear<a class="headerlink" href="#unsur-dalam-persamaan-linear" title="Link to this heading">#</a></h2>
-<p>Dalam proses penyelesaiannya, persamaan linear akan menggunakan rumus-rumus tertentu. Dalam rumus persamaan linear tersebut akan memiliki beberapa unsur penting. Pada penjelasan sebelumnya beberapa unsur dalam penyelesaian persamaan linear sudah dijelaskan secara singkat.</p>
-<section id="variable">
-<h3>3.1.Variable<a class="headerlink" href="#variable" title="Link to this heading">#</a></h3>
-<p>Variabel dalam persamaan linear bisa diartikan sebagai penambah atau pengganti suatu bilangan yang pada dasarnya belum diketahui besaran nilai secara jelas. Variable sendiri kebanyak akan disimbolkan menggunakan huruf, misalnya seperti a, b, c, …, x, y, z.</p>
+<section id="langkah-2-nolkan-elemen-di-bawah-pivot-kolom-2">
+<h3>Langkah 2: nolkan elemen di bawah pivot kolom 2<a class="headerlink" href="#langkah-2-nolkan-elemen-di-bawah-pivot-kolom-2" title="Link to this heading">#</a></h3>
+<p>Operasi baris: $<span class="math notranslate nohighlight">\(R_3 \leftarrow R_3 - 3R_2\)</span>$</p>
+<p>Penjelasan:</p>
+<ol class="arabic simple">
+<li><p>Pivot kedua ada di kolom 2 baris 2 (angka 1).</p></li>
+<li><p>Di bawahnya (baris 3 kolom 2) ada angka 3.</p></li>
+<li><p>Kita membuat elemen tersebut menjadi 0 dengan mengurangkan 3 kali
+baris 2.</p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[\begin{split}\left[
+\begin{array}{ccccc|c}
+1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 1 \\
+0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 2 \\
+1 &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 3 \\
+1 &amp; 0 &amp; 4 &amp; 1 &amp; 0 &amp; 16 \\
+1 &amp; 0 &amp; 0 &amp; 5 &amp; 1 &amp; 25
+\end{array}
+\right]\end{split}\]</div>
 </section>
-<section id="koefisien">
-<h3>3.2.Koefisien<a class="headerlink" href="#koefisien" title="Link to this heading">#</a></h3>
-<p>Koefisien adalah suatu bilangan yang dapat menjelaskan banyaknya jumlah variabel sejenis. Keberadaan koefisien sendiri akan berada di depan variable. Sebagai contohnya adalah pada soal 2 pensil dan 4 spidol dapat dituliskan dalam persamaan seperti:</p>
+<section id="langkah-3-nolkan-elemen-di-bawah-pivot-kolom-3">
+<h3>Langkah 3: nolkan elemen di bawah pivot kolom 3<a class="headerlink" href="#langkah-3-nolkan-elemen-di-bawah-pivot-kolom-3" title="Link to this heading">#</a></h3>
+<p>Operasi baris: $<span class="math notranslate nohighlight">\(R_4 \leftarrow R_4 - 4R_3\)</span>$</p>
+<p>Penjelasan:</p>
+<ol class="arabic simple">
+<li><p>Pivot ketiga ada di kolom 3 baris 3 (angka 1).</p></li>
+<li><p>Di bawahnya (baris 4 kolom 3) ada angka 4.</p></li>
+<li><p>Elemen tersebut dinolkan dengan mengurangkan 4 kali baris 3.</p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[\begin{split}\left[
+\begin{array}{ccccc|c}
+1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 1 \\
+0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 2 \\
+1 &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 3 \\
+1 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; 4 \\
+1 &amp; 0 &amp; 0 &amp; 5 &amp; 1 &amp; 25
+\end{array}
+\right]\end{split}\]</div>
 </section>
-<section id="konstanta">
-<h3>3.3.Konstanta<a class="headerlink" href="#konstanta" title="Link to this heading">#</a></h3>
-<p>Ada juga unsur konstanta dalam persamaan linear. Dimana konstanta adalah suatu nilai yang konstan yang tidak diikuti oleh variable pada bagian belakang. Sebagai contohnya adalah pada soal persamaan 2x + 5y + 7. Angka 7 pada soal persamaan tersebut adalah bentuk konstanta. Hal ini tak lain karena tidak ada variable apapun di bagian belakang angka 7.</p>
-</section>
-<section id="suku">
-<h3>3.4.Suku<a class="headerlink" href="#suku" title="Link to this heading">#</a></h3>
-<p>Suku adalah bagian dari bentuk persamaan. Suku akan terdiri beberapa unsur penting persamaan linear, mulai dari koefisien, variable dan juga konstanta. Sebagai contohnya pada soal persamaan 7x-y+4. Suku dari soal persamaan tersebut adalah 6x, -y, 4.</p>
-<p>##4.Jenis-Jenis Persamaan Linear
-Persamaan linear dibagi menjadi beberapa jenis. Dimana ada tiga jenis persamaan linear, mulai dari persamaan linear satu variabel, persamaan linear dua variabel dan persamaan linear tiga variabel. Namun  jika ditulis dalam matematik, persamaan linier secara umum adalah y = mx + b.</p>
-<p>Setiap jenis persamaan linear memiliki pengertian dan cara penyelesaian yang berbeda-beda. Oleh karena itu, untuk bisa memahami apa itu persamaan linear, kita perlu tahu juga jenis-jenis persamaan linear.</p>
-</section>
-<section id="persamaan-linear-satu-variabel">
-<h3>4.1.Persamaan Linear Satu Variabel<a class="headerlink" href="#persamaan-linear-satu-variabel" title="Link to this heading">#</a></h3>
-<p>Persamaan linear satu variabel adalah salah satu jenis persamaan linear. Seperti dengan namanya, persamaan linear satu variabel tersebut akan memiliki satu variabel dengan pangkat 1 dalam bentuk kalimat terbuka dan dapat dihubungkan dengan tanda =.</p>
-</section>
-<section id="persamaan-linear-dua-variabel">
-<h3>4.2.Persamaan Linear Dua Variabel<a class="headerlink" href="#persamaan-linear-dua-variabel" title="Link to this heading">#</a></h3>
-<p>Selanjutnya, ada persamaan linear dua variabel yang juga menjadi salah satu jenis persamaan linear. Persamaan linear dua variabel ini adalah sistem persamaan yang memiliki variabel berjumlah dua dengan pangkat 1. Persamaan linear dua variabel tersebut akan menggunakan relasi = dan tidak akan menggunakan perkalian variabel pada setiap persamaan.</p>
-<p>Dalam kehidupan sehari-hari, jenis persamaan linear dua variabel ini kerap digunakan untuk menyelesaikan masalah sederhana lho, khususnya dalam kegiatan jual beli. Biasanya persamaan persamaan linear dua variabel tersebut akan digunakan untuk mencari keuntungan.</p>
-</section>
-<section id="persamaan-linear-tiga-variabel">
-<h3>4.3.Persamaan Linear Tiga Variabel<a class="headerlink" href="#persamaan-linear-tiga-variabel" title="Link to this heading">#</a></h3>
-<p>Lalu masih ada persamaan persamaan linear tiga variabel yang juga merupakan jenis persamaan linear. Secara mudahnya persamaan linear tiga variabel ini adalah bentuk perluasan dari persamaan linier dua variabel.</p>
-<p>Dimana untuk menyelesaikan persamaan linear tiga variabel ini bisa dilakukan dengan dua cara yaitu menggunakan metode subtitusi dan metode eliminasi. Sistem persamaan linear tiga variabel ini akan menentukan titik potong.</p>
+<section id="langkah-4-nolkan-elemen-di-bawah-pivot-kolom-4">
+<h3>Langkah 4: nolkan elemen di bawah pivot kolom 4<a class="headerlink" href="#langkah-4-nolkan-elemen-di-bawah-pivot-kolom-4" title="Link to this heading">#</a></h3>
+<p>Operasi baris: $<span class="math notranslate nohighlight">\(R_5 \leftarrow R_5 - 5R_4\)</span>$</p>
+<p>Penjelasan:</p>
+<ol class="arabic simple">
+<li><p>Pivot keempat ada di kolom 4 baris 4 (angka 1).</p></li>
+<li><p>Di bawahnya (baris 5 kolom 4) ada angka 5.</p></li>
+<li><p>Elemen tersebut dibuat nol dengan mengurangkan 5 kali baris 4.</p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[\begin{split}\left[
+    \begin{array}{ccccc|c}
+    1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 &amp; 1 \\
+    0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; 2 \\
+    1 &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 3 \\
+    1 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; 4 \\
+    1 &amp; 0 &amp; 0 &amp; 0 &amp; 1 &amp; 5
+    \end{array}
+    \right]$$\end{split}\]</div>
 </section>
 </section>
-<section id="metode-penyelesaian-persamaan-linear">
-<h2>5.Metode Penyelesaian Persamaan Linear<a class="headerlink" href="#metode-penyelesaian-persamaan-linear" title="Link to this heading">#</a></h2>
-<p>Pada bagian jenis persamaan linear ada beberapa metode yang bisa digunakan untuk menyelesaikan soal persamaan. Dimana metode-metode tersebut adalah seperti metode subtitusi dan metode persamaan.</p>
-<p>Setiap jenis metode penyelesaian persamaan linear memiliki pengertian dan cara yang berbeda-beda. Oleh karena itu, untuk memahami setiap jenis metode penyelesaian persamaan linear,maka penjelasan di bawah ini bisa membantu.</p>
+<section id="hasil-akhir">
+<h2>Hasil Akhir<a class="headerlink" href="#hasil-akhir" title="Link to this heading">#</a></h2>
+<div class="math notranslate nohighlight">
+\[x_1 = 1,\quad x_2 = 2,\quad x_3 = 3,\quad x_4 = 4,\quad x_5 = 5\]</div>
 </section>
-<section id="metode-substitusi">
-<h2>6.Metode Substitusi<a class="headerlink" href="#metode-substitusi" title="Link to this heading">#</a></h2>
-<p>Metode substitusi adalah salah satu cara untuk menyelesaikan soal mengenai persamaan linear dua variabel atau tiga variabel. Dimana nantinya ketika menggunakan metode substitusi ini akan mengubah suatu variabel dengan variabel dari persamaan lainnya.</p>
-</section>
-<section id="metode-eliminasi">
-<h2>7.Metode Eliminasi<a class="headerlink" href="#metode-eliminasi" title="Link to this heading">#</a></h2>
-<p>Metode eliminasi adalah salah satu metode yang digunakan untuk menyelesaikan soal persamaan linear dua atau tiga variable. Dimana metode eliminasi secara garis besar akan menghapus atau menghilangkan satu variabel dalam persamaan tersebut.</p>
-<p>Misalnya variabel pada persamaan a dan b dan agar bisa mencari nilai a, maka kita perlu menghilangkan b terlebih dahulu. Hal tersebut juga berlaku sebaliknya.</p>
+<section id="sage-cell">
+<h2>SAGE CELL<a class="headerlink" href="#sage-cell" title="Link to this heading">#</a></h2>
+<p><img alt="original image" src="https://cdn.mathpix.com/snip/images/aeU_3-oDook_mnKKIv2FYWNZY-_fwbTFVqVEcXw9jo4.original.fullsize.png" /></p>
+<p>Kesimpulan: Eliminasi Gauss adalah metode efisien untuk menyelesaikan sistem persamaan linear (SPL) dengan mengubah matriks diperbesar menjadi bentuk eselon baris (segitiga atas) menggunakan operasi baris elementer. Proses ini diakhiri dengan substitusi balik untuk mendapatkan solusi, menjadikannya metode sistematis yang ampuh.</p>
 </section>
 </section>
 
@@ -492,22 +540,13 @@ Persamaan linear dibagi menjadi beberapa jenis. Dimana ada tiga jenis persamaan 
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="intro.html"
+       href="materi_1.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Welcome to your Jupyter Book</p>
+        <p class="prev-next-title">Materi Pertemuan 1</p>
       </div>
-    </a>
-    <a class="right-next"
-       href="materi_2.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Tugas ELiminasi Gaussan</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
@@ -527,21 +566,17 @@ Persamaan linear dibagi menjadi beberapa jenis. Dimana ada tiga jenis persamaan 
   </div>
   <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pengertian-persamaan-linear">1.Pengertian Persamaan Linear</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ciri-ciri-persamaan-linear">2.Ciri-Ciri Persamaan Linear</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#unsur-dalam-persamaan-linear">3.Unsur Dalam Persamaan Linear</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#variable">3.1.Variable</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#koefisien">3.2.Koefisien</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#konstanta">3.3.Konstanta</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#suku">3.4.Suku</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#persamaan-linear-satu-variabel">4.1.Persamaan Linear Satu Variabel</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#persamaan-linear-dua-variabel">4.2.Persamaan Linear Dua Variabel</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#persamaan-linear-tiga-variabel">4.3.Persamaan Linear Tiga Variabel</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#spl-sistem-persamaan-linear">1. SPL (Sistem Persamaan Linear)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#matriks-augmented">2. Matriks Augmented</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eliminasi-gauss-obe">3. Eliminasi Gauss (OBE)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#langkah-1-nolkan-elemen-di-bawah-pivot-kolom-1">Langkah 1: nolkan elemen di bawah pivot kolom 1</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#langkah-2-nolkan-elemen-di-bawah-pivot-kolom-2">Langkah 2: nolkan elemen di bawah pivot kolom 2</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#langkah-3-nolkan-elemen-di-bawah-pivot-kolom-3">Langkah 3: nolkan elemen di bawah pivot kolom 3</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#langkah-4-nolkan-elemen-di-bawah-pivot-kolom-4">Langkah 4: nolkan elemen di bawah pivot kolom 4</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#metode-penyelesaian-persamaan-linear">5.Metode Penyelesaian Persamaan Linear</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#metode-substitusi">6.Metode Substitusi</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#metode-eliminasi">7.Metode Eliminasi</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hasil-akhir">Hasil Akhir</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sage-cell">SAGE CELL</a></li>
 </ul>
   </nav></div>
 
