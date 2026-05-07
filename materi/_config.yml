@@ -1,0 +1,28 @@
+# Book settings
+title: My sample book
+author: The Jupyter Book Community
+logo: SUKSES.jpeg
+
+html:
+  extra_css:
+    - style.css
+  use_issues_button: true
+  use_repository_button: true
+
+# Force re-execution of notebooks on each build.
+execute:
+  execute_notebooks: force
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references.bib
+
+repository:
+  url: https://github.com/executablebooks/jupyter-book
+  path_to_book: docs
+  branch: master
