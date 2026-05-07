@@ -1,11 +1,8 @@
 # Profil Diri
+<img src = "ITB 4.jpeg" width="150" class = "profil-foto">
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
-
-Check out the content pages bundled with this sample book to see more.
+Perkenalkan saya Abdul Hadi Marzuqi bisa dipanggil Hadi, saya mahasiswa Universitas Trunojoyo Madura jurusan Teknik Informatika yang sekarang menempuh semester 2.<br>
+Website ini berisi tentang semua materi dan tugas yang saya pelajari selama menempuh di semester 2 ini khusus untuk mata kuliah Komputasi Aljabar Linear.
 
 ```{tableofcontents}
 ```
