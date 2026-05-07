@@ -1,4 +1,4 @@
-# Determinan Dan Invers
+# **Determinan Dan Invers**
 
 SOAL.
 
@@ -15,7 +15,7 @@ $A_{ij}$ adalah submatrik dengan menghapus baris i dan kolom kolom j dari matrix
 
 ---
 
-## 1. Matriks 2×2 (Determinan)
+## **1. Matriks 2×2 (Determinan)**
 
 $$ A = \begin{bmatrix} -7 & -5 \\ 1 & 4 \end{bmatrix} $$
 
@@ -39,7 +39,7 @@ $$
 
 ---
 
-## 2. Matriks 3×3 (Determinan)
+## **2. Matriks 3×3 (Determinan)**
 
 $$ A = \begin{bmatrix} 0 & 1 & 0 \\ 2 & -2 & 0 \\ -3 & -1 & 1 \end{bmatrix} $$
 
@@ -86,7 +86,7 @@ $$
 
 ---
 
-## 3. Matriks 4×4 (Determinan)
+## **3. Matriks 4×4 (Determinan)**
 
 $$ A = \begin{bmatrix} 1 & -3 & 1 & 1 \\ -3 & 1 & 1 & 1 \\ 1 & 1 & -3 & 1 \\ 1 & 1 & 1 & -3 \end{bmatrix} $$
 
@@ -122,7 +122,7 @@ $$A^{-1} = \frac{1}{\det A} \operatorname{adj} A.$$
 ---
 
 
-## 4. Matriks 2×2 (Invers)
+## **4. Matriks 2×2 (Invers)**
 
 $$A = \begin{bmatrix} -7 & -5 \\ 1 & 4 \end{bmatrix}$$
 
@@ -200,7 +200,7 @@ A^{-1} =
 \end{bmatrix}
 $$
 
-## 5. Matriks 3×3 (Invers)
+## **5. Matriks 3×3 (Invers)**
 
 $$A = \begin{bmatrix} 0 & 2 & -3 \\ 1 & -2 & -1 \\ 0 & 0 & 1 \end{bmatrix}$$
 

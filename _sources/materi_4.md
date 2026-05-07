@@ -1,9 +1,9 @@
-# Tugas Transformasi sumbu Y menggunakan Translasi dan pencerminan
+# **Tugas Transformasi sumbu Y menggunakan Translasi dan pencerminan**
 
-## Link Colab:
+## **Geogebra:**
 
 
-## 1. Titik Awal
+## **1. Titik Awal**
 
 Objek awal berupa persegi dengan titik:
 
@@ -22,7 +22,7 @@ y \\
 \end{bmatrix}
 $$
 
-## 2. Translasi (Langkah Pertama)
+## **2. Translasi (Langkah Pertama)**
 
 Pada program, setiap titik digeser ke kanan sejauh 1 satuan.
 
@@ -82,7 +82,7 @@ C(3,3) → C₁(4,3)
 D(1,3) → D₁(2,3)
 
 
-## 3. Refleksi terhadap Sumbu Y
+## **3. Refleksi terhadap Sumbu Y**
 
 Refleksi terhadap sumbu Y dapat ditulis dalam bentuk matriks:
 
@@ -177,7 +177,7 @@ B₁(4,1) → B'(−4,1)
 C₁(4,3) → C'(−4,3)
 D₁(2,3) → D'(−2,3)
 
-## 4. Transformasi Gabungan
+## **4. Transformasi Gabungan**
 
 UUrutan transformasi:
 Translasi kemudian refleksi
@@ -217,14 +217,14 @@ R \cdot T =
 \end{bmatrix}
 $$
 
-## 5. Hasil Transformasi Akhir
+## **5. Hasil Transformasi Akhir**
 
 Hasil Transformasi Akhir:
 
 $$
 (x, y) \rightarrow (-(x+1), y)
 $$
-## 6. Proses Berulang (Sesuai Loop di Program)
+## **6. Proses Berulang (Sesuai Loop di Program)**
 
 Transformasi dilakukan sebanyak 6 langkah.
 
@@ -257,7 +257,7 @@ $$
 (x, y) \rightarrow (x+n, y) \rightarrow (-(x+n), y)
 $$
 
-## 7. Hubungan dengan T(x) = A(x)
+## **7. Hubungan dengan T(x) = A(x)**
 
 Dalam konteks program:
 
@@ -270,7 +270,7 @@ $$
 A(x, y) = R(T(x, y))
 $$
 
-## 8. Kesimpulan
+## **8. Kesimpulan**
 Titik A, B, C, D membentuk persegi
 Objek bergerak ke kanan setiap langkah
 Setiap hasil langsung dicerminkan ke sumbu Y
