@@ -1,7 +1,7 @@
-# **Tugas Transformasi sumbu Y menggunakan Translasi dan pencerminan**
+# **4. Tugas Transformasi sumbu Y menggunakan Translasi dan pencerminan**
 
-## **Geogebra:**
-
+## **Visualisasi Menggunakan Geogebra:**
+<iframe src="https://www.geogebra.org/calculator/jbm3hqmt?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
 
 ## **1. Titik Awal**
 
